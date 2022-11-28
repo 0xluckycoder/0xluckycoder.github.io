@@ -4,12 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lakshan Portfolio</title>
-    <script type="module" crossorigin src="/assets/index.2c65ea0b.js"></script>
-    <link rel="stylesheet" href="/assets/index.59b1197f.css">
+    <script type="module" crossorigin src="/assets/index.751c8ec8.js"></script>
+    <link rel="stylesheet" href="/assets/index.b016367f.css">
   </head>
   <body>
-    <div id="app"></div>
-
     <nav class="navbar navbar-expand-lg bg-light position-fixed w-100">
       <div class="container-fluid">
         <!-- <a class="navbar-brand" href="#">brand</a> -->
@@ -65,13 +63,15 @@
         <h1>About</h1>
       </div>
       <div class="about-content text-center m-auto">
-        <p>Hello, i’m 22 year old indie developer based in colombo, I’m passionate about designing and building my own services/stuff.</p>
+        <p>Hello, i’m 22 year old indie full stack developer based in colombo, I’m passionate about designing and building my own services/stuff.</p>
         <p>In my late teens i used to build small apps following online video tutorials. i really enjoyed it when i was able to built someting that actually worked.</p>
         <p>Then from youtube i saw how other developers making huge impacts to the world by programming. this was a major inspiration for keep me going in my coding journey.</p>
         <p>Click below to read my resume</p>
       </div>
       <div class="text-center">
-        <button type="button" class="btn btn-dark">Resume</button>
+        <a target="_blank" href="https://drive.google.com/file/d/1TZjKbl7VXle83g7KmZ76Pvo8kzPtS8s5/view">
+          <button type="button" class="btn btn-dark">Resume</button>
+        </a>
       </div>
     </section>
 
@@ -83,22 +83,50 @@
       </div>
 
       <div class="project-content container">
+        
         <div class="row">
           <div class="col-md-6 d-flex justify-content-end">
-            <img src="/assets/project-image.fcdeb326.png" alt="project image">
+            <img src="/assets/budgetbook.f50fc213.png" alt="project image">
           </div>
           <div class="col-md-6 text">
             <h2>Budgetbook</h2>
             <p>Purpose of this application is to allow users to track their expenses and incomes, Users have the ability to create multiple accounts such as (Personal, Banking, Invesetment)</p>
-            <p>This project is open-source available for developers under MIT license</p>
+            <p>This project is open-source and available for developers under MIT license</p>
             <p>For learn more about architecture & technologies please visit the github README.md</p>
             <div>
-              <button type="button" class="btn btn-dark">Code</button>
-              <button type="button" class="btn btn-dark">Live</button>
+              <a target="_blank" href="https://github.com/0xluckycoder/budgetbook">
+                <button type="button" class="btn btn-dark">Code</button>
+              </a>
+              <a target="_blank" href="http://budgetbook-app.s3-website.ap-south-1.amazonaws.com">
+                <button type="button" class="btn btn-dark">Live</button>
+              </a>
             </div>
             </p>
           </div>
         </div>
+
+        <div class="row">
+          <div class="col-md-6 d-flex justify-content-end">
+            <img src="/assets/portfolio.9aece7ea.png" alt="project image">
+            <!-- <video class="video-1" src="./assets/video-1.mp4" autoplay loop></video> -->
+          </div>
+          <div class="col-md-6 text">
+            <h2>Portfolio</h2>
+            <p>Static Website for showcase my work</p>
+            <p>Technologies : Bootstrap, Sass, HTML, Vanilla JS</p>
+            <p>I'm using Vite.js as the module bundler</p>
+            <div>
+              <a target="_blank" href="https://github.com/0xluckycoder/portfolio">
+                <button type="button" class="btn btn-dark">Code</button>
+              </a>
+              <a target="_blank" href="https://0xluckycoder.github.io">
+                <button type="button" class="btn btn-dark">Live</button>
+              </a>
+            </div>
+            </p>
+          </div>
+        </div>
+
       </div>
 
     </section>
@@ -113,11 +141,11 @@
       <div class="row text-center mb-4">
         <div class="col-lg-2">
           <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAiTSURBVHgB7Zx7cFTVHce/u9ndbLKbbJJNSAjhUSioPCSW0IAVhgpUHjpgKTbUKiKixRYxyVCqFSjCkOlARaNlqNBioUQUihoYWgMtEq2JQlEDCNaxoQbIJiab3ewrm331ntvi4LLuPXd3sxzmns9M/smcfd3PPb9zzu93zlV5mgeFwGEGNThMwYUwBhfCGFwIY3AhjMGFMAYXwhhcCGNwIYzBhTAGF8IYXAhjcCGMwYUwBhfCGFwIY3AhjMGFMAYXwhhcCGNwIYzBhTAGF8IYXAhjcCGMwYUwBhfCGFwIY3AhjMGFMAYXwhhcCGNwIYzBhTAGF8IYXAhjcCGMwYUwBhfCGFwIY3AhjMGFMAYXwhhcCGNocB3Scskv2caco0a6Pr77rb0jgPMtfjT804v/XAig0xpAIAikp6kwoCAFY0frMGSABmNGapGiViERXHdC7N1BlM5uhc0e/SFG1etz8NCPjJCLzxfCX4724He7HDj+kRcOR/TPUQkehg7WYPrkNFQ8koGBhfFd0uuyh4SEuzQk8VCpUEj+U6dOn+tFxdouvN3opX4N+ZjPzvuFPwd273di4XwD1q3Mgj41tt7Jx5D/U/37boyfaZElIxyHM4QXdjhx610WIcRJh9VIcCEC6zbbsHK9DYni7Kd+TJnXhg5rEHJRvJDaN93YUN2NRGNpD+B7ZRbYuuVJUbQQmz2IZb+0oq8gPeXJDfJ6nqKFPPNiN9o75YcVObz0qhPnPvNRt78uZ1mJgExv9x9yU7UlU9ubhmtReosOOp0K//48gFNne8WwFA1DugpL789AkbBmoUWxQk6e6hWnq1IMLkrBrufzMO5mHdRXxBMyNjy3rRubtjrg9189xZ5QkopNq7MxbowOclCskBNNvZJtUgQBL240Y3zx1Rc1K1ONNZVZGDZYiyUrOr/8f7ZJjfUrTbh3nhGpOvmrd8UKafpYWsikCamYPEEftc2Pf2BAs5Be2VBtx9Tb9Nj+GzMK+tGHqHAUK8TaJT2YDx9KF27KH87AiKEa/HCOAfGi2FmWhuJWdDgDoMFoUCdEBkGxQvLzpMPKkXovuux9Oy0OR7FChn9DK9mmQ0i3L19lRTCYvMfjK1bIbaWpVO32HnDj7gc7hCky/eIuHhQrZJhQw+hPORuqO+bBt2dZsOwpK85f6FsxihVCBuI7p6dRt3d7Qti+24niaRY8sLwDDcdjT9NHQ9G5rMqfZIppETl4vSG8UuvG7fe0iZXLmv2uhI4xihYyuEiDjauyECtNH/uwuLITN066JBa4AoH4xSi+HvLIfRn4/qx0xEPLpYBY4Bpzu9BjXnPGJUbxQjQalZA8zMX0yXrES/PnfiyusGLaPe3ibpVY4CVcAZLFrf1jPzy+JAOJoPGkFyUzWvFqrQty4UKuoOrJbLy8JVfc1hMvLncIC5d3Cul5eeVhLiSMuTPT8d6hAqxdYUJhQexZ28us+rUNW3c5qdtzIREwpqvx80dN+McbBWKRaUhRfD1mzUYbTp+lW1ByIVEgdY2fLsrAiTcL8KcXcjGJMt0STrcjiBXruqjaciEUGIQeM292Our25KPxYAEWzDVAIzOavdXQg3fe75Fsx4XIZOwoHf6w2YwzxwqxqMyIND39Uv/gYY9kGy4kRgYN0GBLVQ7qXs5HPmWS8ug7vIf0OSXFOry1Lx+mDOme0nTOhx5v9FU8F5IAhgzUYOlCukWlVAWSCSHuHvoyKTkwE6AodWtS6GO7yx1EVbUdO/fRrxfCGT+WbgbmdjMu5N0TXtxR1obDx6TjK4Hsx3W6pZN3pkzpn0bOduw94MKoKa14erMdj6/uwqfNsRWgDIbEXMprJqTtiwAq11ox54F2nPjIhyequtBD0VNaLvpBcxYnzxz9p51s6sWd97eL6Q3yXQgeoQi1YGknLrbKTwz+i3L/rtEY/XslXQg52bTndadYEt3ykhNO1/+u7plPfFizyS75+prXpRN2pOiUZ44887kgXOzyNVZ8Z44FfxdmPeFyz3zSi7sXf4HWNnoppNeSjdtS6LQqmLMYEvLBqV4hNd2GReVW8UBlOL/d4cDTz9iFnhK5Cxw84sHOvdJCSA5qWIQEIQmPxdMt2Loz+lhxSkhzlMywYJtQsnV7ovdacgyO9DSadHvxaK2Y7o9G0nYubq9x4rGnrFHDDRmwq56349Df3GLhaFChBkHhBSSk1L/nxa59dOlssjFaq736h998kw6ZBhVcFG9jtQXF7/vcNgdmTdVjykQ9TCYV0tJUsHeHcNESwJG3Pdh/0AOfn64gRQ6GSqHyNA9Kyqaj+sYezLy3Xag/o8/Z8awZZV+zk3CPEPIerOhEKCm/+qt8eKQ/bhgWfT9Y0kIW2bScqO2W0RhzoxbzopRky4Q8VPnDmUg2jz2UISmDkNQxZNPqrIixPZGseDQzYri6ktUVJsz4Lv0WoHgpKkxB+RK6myCpQnKyUrBbqMj1M/fNxy5eYMT8u6R7ITm3USN8j/vm932PJeuhN3bkUR9RSPq0d+xInZjGHlgYfzXuSmZNTcPmtdnU7UmWdsuGHPziZ/L3ZtFCUip/remHkSPoT1Fdk4XhDd/U4uifCzDnjsSEjWVCEemVrbmSoSocMgUlp6AaDvSPeEoqHsgNUv9aAYpHyXvfpM2yvo7D9R5U/soWU8qi9FupYq+4ZXRiLmZ9oxfrnrXh3ePemGaD5IaYcmsqnlhmwsRxsVUXr7mQy7z/gRe1dR4c/9CLprO9ER8uY85WoXScXkzkzZ6mF2ZUib2rL3OpLYAGYRF5oM6N5pYATgurd3eE/Bk59ENO544cocXEklTMnZGO/Nz4QjEzQsJxuoJwCbklsgtQk6KG0UAei3RtUm9kzUJW7G6h4OfzB4UxRyWOQZlGFdTqxA5AzApRKrxAxRhcCGNwIYzBhTAGF8IYXAhj/BfWvcnWlbxy5gAAAABJRU5ErkJggg==" alt="">
-          <p class="pt-3">Javascript</p>
+          <p class="pt-3">Javascript ES6+</p>
         </div>
         <div class="col-lg-2">
           <img src="/assets/node-js.6c1d5f20.png" alt="">
-          <p class="pt-3">Nodejs</p>
+          <p class="pt-3">Nodejs/Express</p>
         </div>
         <div class="col-lg-2">
           <img src="data:image/png;base64,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" alt="">
@@ -186,6 +214,11 @@
           <a target="_blank" href="https://www.linkedin.com/in/lakshan-developer/">
             <button type="button" class="btn btn-outline-dark">
               Linkedin
+            </button>
+          </a>
+          <a target="_blank" href="https://github.com/0xluckycoder">
+            <button type="button" class="btn btn-outline-dark">
+              Github
             </button>
           </a>
         </div>
